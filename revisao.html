@@ -29,13 +29,25 @@
     - Flow
     - Hierarchy
     - Positioning of elements
-
-    -----------------
-    Tips
+-->
+<br>
+<br>
+<pre>
+    <code>
+        My
+            TIPS
+    </code>
+</pre>
+<br>
+<br>  
+<!--
 
     Alt + Z Automatic line break in VSC
 
     tag*3 = create various tags at once
+
+    ctrl + k + ctrl c       comment various lines at once
+    ctrl + k + ctrl u       uncomment
 
     Tags
 
@@ -68,8 +80,9 @@
 
     Lists Format
 
+    nav -> A list inside the tag nav, using href, can be used to navigate through other documents/projects
     ol -> Ordered list (1,2,3)
-    li -> Use to tag every item inside ol or ul
+        li -> Use to tag every item inside ol or ul / go inside ol or ul
     ul -> Inordinate list (...)
 
     Quotations
@@ -150,6 +163,9 @@ Ted's love <abbr title="Lebenslangerschikshalshatz">word</abbr>.
 
     ahref ="link" download="nameoftheimage"> -> On click will be downloaded the item 
     img src="same link of the image that will be downloaded, it will download on click on it"
+
+    ## Inside the ahref link message, can be used other tags like h1
+    Also can be given a title tag that show a name when you pass your mouse by it
 -->
         
 <!--    # Example of download atribute
@@ -176,4 +192,49 @@ Ted's love <abbr title="Lebenslangerschikshalshatz">word</abbr>.
     With a href in a ordered list, can be make reference points on the page.
     Must give a id to all parameters / # on href its making a reference at the object that has an id
 
+
+    Reference your files with href
+
+    <a href="file.txt"></a> -> If it's on the same folder
+    <a href="./file.txt"></a> -> One folder above
+    <a href="../file.txt"></a> -> Two folder above
+    <a href="../../"></a> - > With ../ go up any folders you want
+
+
 -->
+
+<!--
+    table
+    thead -> goes up 
+    tr -> table row, every line on a table
+    th -> elements on tr UP
+
+    tbody -> goes under thead
+    td -> elementes on tr DOWN
+
+    tfoot -> final line in the table
+
+-->
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Mayk</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Guilherme</td>
+            <td>20</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td>Total:</td>
+        <td>2 Pessoas</td>
+    </tfoot>
+</table>
